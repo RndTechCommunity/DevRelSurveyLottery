@@ -15,6 +15,7 @@ namespace DevRelSurveyLottery
 			//	.WriteAllLines("emailHashes", File
 			//									.ReadAllLines("devrelemail.txt")
 			//									.Distinct()
+			//									.OrderBy(m => m)
 			//									.Select(m => m.Substring(0, m.IndexOf('@')))
 			//									.Select(m => GetHashString(m))
 			//									.ToArray());
